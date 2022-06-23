@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+    text-align: center;
+}
+body{background-color: rgb(58, 56, 56);
+    border: 3px solid white;
+    border-radius: 10px;
+    
+}
+.contacts>div{
+    display: inline-block;
+    margin:0 1rem;
+    padding:auto 1.5rem;
+}
+.maincontainer{
+    background-color: rgb(41, 40, 40);
+    align-items: center;
+    color: white;
+    padding: 4.5rem 2rem;
+    border-radius: 10px;
+    
+    width: 80%;
+    height:80%;
+    margin: 0 auto;
+    position: relative;
+   
+}
+.bigabout,.biginterests{
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    width:60%;
+    margin: 1em  auto;
+    background-color: inherit;
+    border: none;
+    
+}
+.biginterests{
+    margin-bottom: 2em;
+    padding-bottom:4em ;
+    padding-top: 2em;
+}
+.about,.interests{
+    /* width:60%; */
+ 
+    text-align: left;
+}
+.footer{
+    background-color:rgb(41, 40, 40);
+    width: 100%;
+    box-shadow: 3px;
+    margin-top:5em;
+    margin-bottom: 0;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.socials{font-size: 2.5rem;}
+.header{width: 100%;
+    background-color: inherit;
+        margin:0 auto}
+
+.email,.linkedin,.website{
+    font-size: smaller;
+}
+img{border-radius: 10px 10px 0 0;
+border: none;}
+.contacts{text-align: center;
+    margin-top: 2em;
+}
+.email{
+    color:black;
+    padding:0.5rem 1rem;
+    border-radius: 6px;
+    background-color: white;
+}
+.linkedin{
+    background-color: rgb(50, 50, 190);
+    padding:0.5rem 1rem;
+    border-radius: 6px;
+    
+}
+.linkedin a{
+    color:white ;
+    text-decoration: none;
+}
+
+.email a{
+   text-decoration: none;
+    color:black;
+}
+.name,.position,.website{
+    
+    text-align: center;
+
+}
+.website{
+    margin:10px; 
+
+}
+h2{
+    font-family: 'Pirata One','Serifcl';
+}
+
+.social-icon{
+margin:0.5rem;
+border-radius: 3px;
+font-size: 2rem;
+padding:0.3rem 0.6rem ;
+}
+.instagram{
+    color:orangered
+}
+.github{
+    color:black
+}
