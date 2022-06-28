@@ -14,7 +14,7 @@ const Header=()=>{
             
                 <p className="position">Full stack Developer</p>
                 <div className='row'>
-        <div className='website px-0 btn-sm'><a href='https://abimolusi.herokuapp.com/' target='_blank' style={{color:'white',textDecoration:'none',margin:'10px',border:'solid 2px white',borderRadius:'3px',padding:'0.3rem'}}>My work</a></div>
+        <div className='website px-0 btn-sm'><a href='https://abimolusi.herokuapp.com/' target='_blank' style={{textAlign:'center',color:'white',textDecoration:'none',margin:'10px',border:'solid 2px white',borderRadius:'3px',padding:'0.3rem'}}>My work</a></div>
     <div className='contacts'>
         <div className="email"><a href='mailto:molusi.abigail@gmail.com' target='_blank'><i class="bi bi-envelope-fill" style={{color:'black'}}></i>Email</a></div>
         <div className="linkedin " ><a href='https://www.linkedin.com/in/abigail-molusi-4990a4225/'target='_blank' >Linkedin</a></div>
